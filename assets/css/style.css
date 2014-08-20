@@ -1,0 +1,62 @@
+.container-fluid {
+	padding: 0;
+}
+
+header {
+	background: url('../img/header-bg.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	text-align: center;
+  	height: 45em;
+  	color: #FFF;
+}
+
+header > img {
+	border-radius: 100%;
+	border: 10px solid #FFF;
+	height: 300px;
+	width: 300px;
+	margin-top: 3em;
+}
+
+header > h1 {
+	font-size: 3.5em;
+	padding: 0 1em;
+}
+
+header > p {
+	font-size: 1.75em;
+	padding: 0 1em;
+}
+
+.get-in-touch > ul > li {
+	display: inline;
+	padding: 0 5px;
+	font-size: 1.5em;
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+section {
+	margin: 0 2.5em;
+	padding: 1em 0;
+}
+
+section > h2 {
+	text-align: center;
+	padding-bottom: 0.25em;
+}
+
+.get-in-touch {
+	text-align: center;
+}
+
+.get-in-touch > ul {
+	padding: 0;
+	margin-bottom: 1.5em;
+}
+
